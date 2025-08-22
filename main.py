@@ -264,7 +264,7 @@ def main():
    
     try:
         # Read the log file content
-        log_path = r"timetable.log"
+        log_path = r"timetable.log"    ## dear seniors please add the timetable.log file location acc to your pc
         with open(log_path, "r") as f:
             log_content = f.read()
         
@@ -286,4 +286,5 @@ def main():
 
 if __name__ == "__main__":
     exit(main())
+
 
