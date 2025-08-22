@@ -264,7 +264,7 @@ def main():
    
     try:
         # Read the log file content
-        log_path = r"D:\BITS_Pilani\college\Extra_tasks\CC\backend\CC_task\timetable.log"
+        log_path = r"timetable.log"
         with open(log_path, "r") as f:
             log_content = f.read()
         
@@ -286,3 +286,4 @@ def main():
 
 if __name__ == "__main__":
     exit(main())
+
